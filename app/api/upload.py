@@ -8,7 +8,7 @@ from app.database import engine
 
 app = FastAPI()
 
-# Middleware CORS (autorise React à faire les requêtes)
+# Middleware CORS 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000"],
