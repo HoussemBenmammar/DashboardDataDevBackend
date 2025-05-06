@@ -1,0 +1,8 @@
+# Ignore les fichiers/dossiers inutiles
+venv/
+__pycache__/
+*.pyc
+.env
+*.db
+.idea/
+.vscode/
