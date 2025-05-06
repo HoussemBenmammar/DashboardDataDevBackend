@@ -95,4 +95,5 @@ const DataChart = () => {
   );
 };
 
+
 export default DataChart;
